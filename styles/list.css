@@ -1,0 +1,36 @@
+#list {
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+#list > .placeholder {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.list {
+    margin-bottom: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list ul{
+    margin-left: 10px;
+    list-style-type: circle;
+}
+
+.list .p1{
+    font-size: 16pt;
+    float: left;
+}
+
+.list .p2{
+    font-size: 16pt;
+    float:right;
+}
